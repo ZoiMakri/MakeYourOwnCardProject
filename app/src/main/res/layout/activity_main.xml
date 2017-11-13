@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.makeyourowncardproject.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/travel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/toptext"
+        android:layout_height="wrap_content"
+        android:text="Life was meant..."
+        android:textSize="36sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:text="for travelling!"
+        android:id="@+id/middletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toptext"
+        android:textSize="36sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="95dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/middletext"
+        android:fontFamily="cursive"
+        android:paddingTop="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Bon Voyage!"
+
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+
+
+</RelativeLayout>
